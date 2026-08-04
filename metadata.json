@@ -1,0 +1,6 @@
+{
+  "name": "SALI Integrated QA Workspace",
+  "description": "Pre-Production Verification & Analytics Terminal for Kiosk verification and package depth calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

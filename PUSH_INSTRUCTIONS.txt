@@ -1,0 +1,18 @@
+Push this project to https://github.com/Kenn00/VERCEL.git
+
+1. Extract the zip you just downloaded (sali-integrated-qa-workspace-ready.zip) into a folder.
+2. Open a terminal in that folder and run:
+
+   git init
+   git remote add origin https://github.com/Kenn00/VERCEL.git
+   git add .
+   git commit -m "Initial commit: SALI Integrated QA Workspace"
+   git branch -M main
+   git push -u origin main
+
+   (If the repo already has commits/files, use `git pull origin main --allow-unrelated-histories` first, or `git push -u origin main --force` if you want to overwrite it — force will erase whatever's currently there.)
+
+3. To run it locally afterward:
+   npm install
+   cp .env.example .env.local   # then add your GEMINI_API_KEY
+   npm run dev
